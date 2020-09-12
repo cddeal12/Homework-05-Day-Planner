@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,57 +30,55 @@
       <p id="currentDay" class="lead"></p>
     </header>
 
-
+    <!-- Container holding all rows of editable text and buttons -->
     <div class="container">
       <section class="time-block row" id="9AM">
         <div class="hour col-2">9 AM</div>
-        <article class="description col-8">Wee woo</article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="0"></div>
       </section>
       <section class="time-block row" id="10AM">
         <div class="hour col-2">10 AM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="2"></div>
       </section>
       <section class="time-block row" id="11AM">
         <div class="hour col-2">11 AM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="3"></div>
       </section>
       <section class="time-block row" id="12PM">
         <div class="hour col-2">12 PM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="4"></div>
       </section>
       <section class="time-block row" id="1PM">
         <div class="hour col-2">1 PM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="5"></div>
       </section>
       <section class="time-block row" id="2PM">
         <div class="hour col-2">2 PM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="6"></div>
       </section>
       <section class="time-block row" id="3PM">
         <div class="hour col-2">3 PM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="7"></div>
       </section>
       <section class="time-block row" id="4PM">
         <div class="hour col-2">4 PM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="8"></div>
       </section>
       <section class="time-block row" id="5PM">
         <div class="hour col-2">5 PM</div>
-        <article class="description col-8"></article>
-        <div class="saveBtn fas fa-save col-2"></div>
+        <input class="description col-8"></input>
+        <div class="saveBtn fas fa-save col-2" id="9"></div>
       </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="Javascript.js"></script>
   </body>
 </html>
