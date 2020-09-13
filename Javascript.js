@@ -8,8 +8,6 @@ var currentHour = date.getHours() + 1;
 // variable array of all text rows and all buttons
 var nineToFive = jQuery.makeArray(document.querySelectorAll("input.description"));
 console.log(nineToFive);
-var nineToFiveSave = jQuery.makeArray(document.querySelectorAll("div.saveBtn"));
-console.log(nineToFiveSave);
 
 
 // When the page is Loaded...
