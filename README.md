@@ -9,3 +9,6 @@ For this project, I decided to create the appropriate elements in the html itsel
 An array containing every field for inputting text is defined inside the script to allow them all to be iterated on, something that is useful for changing their styles based on the time when the page first loads.
 
 Each of the buttons contains an ID of only a number, 0-8 representing their position on the page. This ID is used to index the array of text-fields when the button is pressed. This way each button only saves the text input for its own coresponding text-field.
+
+## Main Page Screenshot
+![dayplanner](https://user-images.githubusercontent.com/70077316/111221661-06c48e00-8598-11eb-8a30-aa6398d2fed8.png)
